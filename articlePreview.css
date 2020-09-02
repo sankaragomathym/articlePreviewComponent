@@ -155,7 +155,7 @@ p {
     opacity: 0;
 
     width: 250px;
-    padding: 8px 30px;
+    padding: 13px 30px;
 
     display: flex;
     justify-content: space-around;
@@ -178,25 +178,6 @@ p {
     border-top-color: var(--veryDarkBlue);
 }
 
-.share-options i {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    background: no-repeat center center;
-}
-
-.fb-icon i {
-    background-image: url('images/icon-facebook.svg');
-}
-
-.twitter-icon i {
-    background-image: url('images/icon-twitter.svg');
-}
-
-.pinterest-icon i {
-    background-image: url('images/icon-pinterest.svg');
-}
-
 .share-cont.active .share-options {
     visibility: visible;
     opacity: 1;
@@ -217,7 +198,7 @@ p {
 }
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 880px) {
     .container {
         width: 350px;
         flex-direction: column;
